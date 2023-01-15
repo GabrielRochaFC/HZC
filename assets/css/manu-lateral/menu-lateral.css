@@ -6,9 +6,9 @@
     background-color: #15191C;
     position: absolute;
     left: -100vw;
-    transition: 0.25s;
+    transition: left 0.25s;
 }
 .menu-lateral--ativo{
     left: 0vw;
-    transition: 0.25s;
+    transition: left 0.25s;
 }

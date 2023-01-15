@@ -8,3 +8,15 @@
 @import url(manu-lateral/menu-lateral.css);
 @import url(manu-lateral/menuLateral-logo.css);
 @import url(manu-lateral/menuLateral-link.css);
+@import url(main/main.css);
+@import url(main/main-titulo.css);
+@import url(cartao/cartao.css);
+@import url(cartao/cartao-conteudo.css);
+@import url(cartao/cartao-imagem.css);
+@import url(cartao/cartao-titulo.css);
+@import url(cartao/cartao-botao.css);
+@import url(cartao/cartao-contagem.css);
+@import url(cartao/cartao-destaque.css);
+@import url(cartao/cartao-nome.css);
+@import url(mais-vistos/mais-vistos.css);
+@import url(mais-vistos/maisVistos-titulo.css);

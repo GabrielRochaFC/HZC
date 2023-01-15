@@ -1,0 +1,15 @@
+.cartao__contagem{
+    color: #95999C;
+    align-items: center;
+    display: flex;
+}
+.cartao__contagem--visualizacao::before{
+    content: '\e90f';
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+.cartao__contagem--tempo::before{
+    content: '\e90c';
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}

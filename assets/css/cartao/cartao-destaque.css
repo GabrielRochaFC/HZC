@@ -1,0 +1,4 @@
+.cartao__destaque{
+    padding-bottom: 0.5rem;
+    grid-column: span 2;
+}

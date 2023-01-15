@@ -1,0 +1,24 @@
+.cartao__botao{
+    align-items: center;
+    background-color: #0480DC;
+    border-radius: 0.5rem;
+    display: flex;
+    font-size: 0.9rem;
+    height: 2.5rem;
+    justify-content: center;
+    margin-top: 0.5rem;
+    width: 2.5rem;
+    font-weight: 600;
+}
+.cartao__botao--play::before{
+    content: '\e90b';
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.cartao__botao--grande{
+    width: 100%;
+    grid-column: span 2;
+}
+.cartao__botao--grande::before{
+    padding-right: 0.5rem;
+}

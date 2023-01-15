@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+html{
+    font-size: 16px;
+    font-family: 'Open Sans', 'icones', sans-serif;
+}
+
+body {
+    background-color: #1D232A;
+}

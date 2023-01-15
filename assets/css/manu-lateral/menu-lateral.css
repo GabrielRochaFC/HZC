@@ -1,0 +1,14 @@
+.menu-lateral{
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    height: 100vh;
+    background-color: #15191C;
+    position: absolute;
+    left: -100vw;
+    transition: 0.25s;
+}
+.menu-lateral--ativo{
+    left: 0vw;
+    transition: 0.25s;
+}

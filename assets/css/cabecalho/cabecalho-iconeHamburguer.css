@@ -1,0 +1,5 @@
+.cabecalho__icone-hamburguer::before{
+    color: #FFFFFF;
+    content: "\e904";
+    font-size: 1.5rem;
+}

@@ -1,0 +1,5 @@
+.cabecalho__icone-notificacao::before{
+    color: #FFFFFF;
+    content: '\e906';
+    font-size: 1.5rem;
+}

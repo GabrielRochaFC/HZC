@@ -1,6 +1,6 @@
 .cartao__nome{
     font-weight: 400;
-    padding-bottom: 0.5rem;
+    /* padding-bottom: 0.5rem; */
     color: #95999C;
     font-size: 0.875rem;
     grid-column: span 2;

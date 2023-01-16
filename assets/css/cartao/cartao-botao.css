@@ -1,4 +1,5 @@
 .cartao__botao{
+    justify-self: flex-end;
     align-items: center;
     background-color: #0480DC;
     border-radius: 0.5rem;
@@ -6,12 +7,17 @@
     font-size: 0.9rem;
     height: 2.5rem;
     justify-content: center;
-    margin-top: 0.5rem;
+    /* margin-top: 0.5rem; */
     width: 2.5rem;
     font-weight: 600;
 }
 .cartao__botao--play::before{
     content: '\e90b';
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.cartao__botao--carrinho::before{
+    content: '\e901';
     font-size: 1.25rem;
     font-weight: 400;
 }

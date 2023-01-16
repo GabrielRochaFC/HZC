@@ -39,10 +39,10 @@
     </nav>
     <!-- Fim Menu Lateral -->
 
-    <!-- Main section Inicio -->
+    <!-- Main section -->
     <main class="main">
         <h2 class="main__titulo">Início</h2>
-        <article class="cartao">
+        <article class="cartao cartao--principal">
             <img src="assets/img/banner-mobile_1.png" alt="Thumbnail do vídeo em destaque" class="cartao__imagem">
             <div class="cartao__conteudo">
                 <p class="cartao__destaque"> Vídeo em destaque </p>
@@ -53,22 +53,108 @@
                 <button class="cartao__botao cartao__botao--play cartao__botao--grande">Assitir agora</button>
             </div>
         </article>
-    </main>
-    <!-- Fim Main section Inicio -->
-
-    <!-- Videos mais vistos -->
-    <section class="mais-vistos">
-        <h3 class="mais-vistos__titulo">Vídeos mais vistos</h3>
-        <article class="cartao">
-            <img src="assets/img/video_1.png" alt="Thumbnail do vídeo HZC - Tudo sem Padrin" class="cartao__imagem">
+        <!-- Videos mais vistos -->
+        <section class="mais-vistos">
+            <h3 class="mais-vistos__titulo">Vídeos mais vistos</h3>
+            <!-- vídeo 1 -->
+            <article class="cartao">
+                <img src="assets/img/video_1.png" alt="Thumbnail do vídeo HZC - Tudo sem Padrin" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__nome">André Soares</p>
+                    <h3 class="cartao__titulo"> HZC - Tudo sem Padrin </h3>
+                    <p class="cartao__contagem cartao__contagem--tempo">45 minutos</p>
+                    <button class="cartao__botao cartao__botao--play" aria-label="Assistir agora"></button>
+                </div>
+            </article>
+            <!-- vídeo 2 -->
+            <article class="cartao">
+                <img src="assets/img/video_2.png" alt="Thumbnail do vídeo HZC - Tudo sem Padrin" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__nome">Bruno Lopes</p>
+                    <h3 class="cartao__titulo">HZC - Enter The Hu-flez</h3>
+                    <p class="cartao__contagem cartao__contagem--tempo">2 horas</p>
+                    <button class="cartao__botao cartao__botao--play" aria-label="Assistir agora"></button>
+                </div>
+            </article>
+            <!-- vídeo 3 -->
+            <article class="cartao">
+                <img src="assets/img/video_3.png" alt="Thumbnail do vídeo HZC - Tudo sem Padrin" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__nome">Luiza Sampaio</p>
+                    <h3 class="cartao__titulo">HZC - Vol.3</h3>
+                    <p class="cartao__contagem cartao__contagem--tempo">3 horas</p>
+                    <button class="cartao__botao cartao__botao--play" aria-label="Assistir agora"></button>
+                </div>
+            </article>
+            <!-- vídeo 4 -->
+            <article class="cartao">
+                <img src="assets/img/video_4.png" alt="Thumbnail do vídeo HZC - Tudo sem Padrin" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__nome">Bruno Lopes</p>
+                    <h3 class="cartao__titulo">HZC - Love Machine</h3>
+                    <p class="cartao__contagem cartao__contagem--tempo">6 horas</p>
+                    <button class="cartao__botao cartao__botao--play" aria-label="Assistir agora"></button>
+                </div>
+            </article>
+        </section>
+        <!-- Nova Arte -->
+        <article class="cartao cartao--arte">
+            <img src="assets/img/banner-mobile_2.png" alt="Thumbnail do vídeo em destaque" class="cartao__imagem">
             <div class="cartao__conteudo">
-                <p class="cartao__nome">André Soares</p>
-                <h3 class="cartao__titulo"> HZC - Tudo sem Padrin </h3>
-                <p class="cartao__contagem cartao__contagem--tempo">45 minutos</p>
-                <button class="cartao__botao cartao__botao--play"></button>
+                <p class="cartao__destaque"> Nova arte </p>
+                <h3 class="cartao__titulo"> Only Zikas - Lagoa Dompa Club </h3>
+                <p class="cartao__nome">Bruno lopes</p>
+                <p class="cartao__contagem cartao__contagem--dinheiro">39,39</p>
+                <p class="cartao__contagem cartao__contagem--visualizacao">53 visualizalções</p>
+                <button class="cartao__botao cartao__botao--carrinho cartao__botao--grande">Comprar agora</button>
             </div>
         </article>
-    </section>
+        <!-- Camisas mais recentes -->
+        <section class="mais-vistos">
+            <h3 class="mais-vistos__titulo">Camisas mais recentes</h3>
+            <!-- Camisa 1 -->
+            <article class="cartao">
+                <img src="assets/img/produto_1.png" alt="Thumbnail do vídeo HZC - Tudo sem Padrin" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__nome">André Soares</p>
+                    <h3 class="cartao__titulo"> IBM </h3>
+                    <p class="cartao__contagem cartao__contagem--dinheiro">39,39</p>
+                    <button class="cartao__botao cartao__botao--carrinho" aria-label="Comprar agora"></button>
+                </div>
+            </article>
+            <!-- Camisa 2 -->
+            <article class="cartao">
+                <img src="assets/img/produto_2.png" alt="Thumbnail do vídeo HZC - Tudo sem Padrin" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__nome">Bruno Lopes</p>
+                    <h3 class="cartao__titulo">Huflez Crew Philosophy Club</h3>
+                    <p class="cartao__contagem cartao__contagem--dinheiro">69,39</p>
+                    <button class="cartao__botao cartao__botao--carrinho" aria-label="Comprar agora"></button>
+                </div>
+            </article>
+            <!-- Camisa 3 -->
+            <article class="cartao">
+                <img src="assets/img/produto_3.png" alt="Thumbnail do vídeo HZC - Tudo sem Padrin" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__nome">Luiza Sampaio</p>
+                    <h3 class="cartao__titulo">Corujita noturna</h3>
+                    <p class="cartao__contagem cartao__contagem--dinheiro">29,39</p>
+                    <button class="cartao__botao cartao__botao--carrinho" aria-label="Comprar agora"></button>
+                </div>
+            </article>
+            <!-- Camisa 4 -->
+            <article class="cartao">
+                <img src="assets/img/produto_4.png" alt="Thumbnail do vídeo HZC - Tudo sem Padrin" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__nome">Bruno Lopes</p>
+                    <h3 class="cartao__titulo">GGG - Gatin G Gorro</h3>
+                    <p class="cartao__contagem cartao__contagem--dinheiro">59,39</p>
+                    <button class="cartao__botao cartao__botao--carrinho" aria-label="Comprar agora"></button>
+                </div>
+            </article>
+        </section>
+    </main>
+    <!-- Fim Main section -->
 
     <!-- Script Index.js -->
     <script src="assets/js/index.js"></script>

@@ -1,0 +1,27 @@
+.cabecalho__perfil{
+    display: none;
+}
+@media screen and (min-width: 1440px) {
+    .cabecalho__perfil{
+        align-items: center;
+        color: #95999C;
+        display: block;
+        display: flex;
+    }
+    .cabecalho__perfil::before{
+        background-image: url('../../img/profile_2.png');
+        background-position: center;
+        background-size: cover;
+        content: '';
+        display: block;
+        height: 2rem;
+        margin-right: 0.5rem;
+        width: 2rem;
+    }
+    .cabecalho__perfil::after{
+        color: #FFFFFF;
+        content: '\e90d';
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+}
+}

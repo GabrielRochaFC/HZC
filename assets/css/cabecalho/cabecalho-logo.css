@@ -1,3 +1,9 @@
 .cabecalho__logo{
     width: 2.5rem;
 }
+
+@media screen and (min-width: 1440px) {
+    .cabecalho__logo{
+        display: none;
+    }
+}

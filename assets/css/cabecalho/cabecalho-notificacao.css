@@ -1,0 +1,12 @@
+.cabecalho__notificacao--divisao{
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecalho__notificacao--divisao{
+        background-color: #95999C;
+        display: block;
+        height: 100%;
+        width: 1px;
+    }
+}

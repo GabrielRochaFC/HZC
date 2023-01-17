@@ -1,12 +1,13 @@
 .menu-lateral{
+    background-color: #15191C;
+    border-radius: 0rem 0rem 2rem 0rem;
     display: flex;
     flex-direction: column;
-    width: 75vw;
-    height: 100vh;
-    background-color: #15191C;
-    position: absolute;
+    height: fit-content;
     left: -100vw;
+    position: absolute;
     transition: left 0.25s;
+    width: 75vw;
 }
 .menu-lateral--ativo{
     left: 0vw;
@@ -15,12 +16,10 @@
 
 @media screen and (min-width: 1440px) {
     .menu-lateral{
-        position: static;
-        left: 0vw;
-        width: 12.75rem;
-        grid-row: 1 / span 2;
         grid-column: 1;
-        height: fit-content;
-        border-radius: 0rem 0rem 2rem 0rem;
+        grid-row: 1 / span 2;
+        left: 0vw;
+        position: static;
+        width: 12.75rem;
     }
 }

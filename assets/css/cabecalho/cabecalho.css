@@ -9,7 +9,15 @@
 
 @media screen and (min-width: 1440px) {
     .cabecalho{
+        background-color: #1D232A;
+        box-sizing: border-box;
+        display: grid;
+        gap: 2rem;
         grid-column: 2;
         grid-row: 1;
+        grid-template-columns:  repeat(3, auto);
+        height: 5rem;
+        justify-content: flex-end;
+        padding: 1.5rem 3.625rem;
     }
 }

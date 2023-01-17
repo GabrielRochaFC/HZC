@@ -12,3 +12,11 @@ html{
 body {
     background-color: #1D232A;
 }
+
+@media screen and (min-width: 1440px) {
+    body{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-rows: auto 1fr;
+    }
+}

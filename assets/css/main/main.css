@@ -3,3 +3,9 @@
     gap: 1rem;
     padding: 1.5rem 1rem;
 }
+@media screen and (min-width: 1440px) {
+    .main {
+        grid-column: 2;
+        grid-row: 2;
+    }
+}

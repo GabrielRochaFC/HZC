@@ -12,3 +12,13 @@
     left: 0vw;
     transition: left 0.25s;
 }
+
+@media screen and (min-width: 1440px) {
+    .menu-lateral{
+        position: static;
+        left: 0vw;
+        width: 12.75rem;
+        grid-row: 1 / span 2;
+        grid-column: 1;
+    }
+}

@@ -1,5 +1,16 @@
 .cartao{
+    background-color: #2C343A;
     border-radius: 0.938rem;
     overflow: hidden;
-    background-color: #2C343A;
+}
+.cartao--recentes{
+    display: none;
+}
+@media screen and (min-width: 1440px) {
+    .cartao--principal, .cartao--arte{
+        grid-column: span 2;
+    }
+    .cartao--recentes{
+        display: block;
+    }
 }

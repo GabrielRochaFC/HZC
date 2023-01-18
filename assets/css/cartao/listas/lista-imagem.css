@@ -1,0 +1,5 @@
+.lista__imagem{
+    grid-row: span 2;
+    width: 2rem;
+    height: 2rem;
+}

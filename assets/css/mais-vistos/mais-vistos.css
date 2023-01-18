@@ -2,3 +2,11 @@
     display: grid;
     gap: 1rem;
 }
+@media screen and (min-width: 1440px) {
+    .mais-vistos{
+        display: grid;
+        gap: 1.5rem;
+        grid-column: span 3;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

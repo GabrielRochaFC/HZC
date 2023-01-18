@@ -1,4 +1,9 @@
 .main__titulo{
-    font-weight: 700;
     font-size: 1.625rem;
+    font-weight: 700;
+}
+@media screen and (min-width: 1440px) {
+    .main__titulo{
+        grid-column: span 3;
+    }
 }

@@ -1,3 +1,14 @@
 .cartao__imagem{
     width: 100%;
 }
+.cartao__imagem--web{
+    display: none;
+}
+@media screen and (min-width: 1440px) {
+    .cartao__imagem--mobile{
+        display: none;
+    }
+    .cartao__imagem--web{
+        display: block;
+    }
+}

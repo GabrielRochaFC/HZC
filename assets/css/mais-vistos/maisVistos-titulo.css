@@ -1,5 +1,12 @@
 .mais-vistos__titulo{
-    font-weight: 700;
     font-size: 1.125rem;
+    font-weight: 700;
     margin: 1rem 0rem 0rem 0rem;
+}
+@media screen and (min-width: 1440px) {
+    .mais-vistos__titulo{
+        font-size: 1.625rem;
+        grid-column: span 4;
+        margin: 0rem;
+    }
 }

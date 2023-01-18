@@ -45,7 +45,8 @@
     <main class="main">
         <h2 class="main__titulo">Início</h2>
         <article class="cartao cartao--principal">
-            <img src="assets/img/banner-mobile_1.png" alt="Thumbnail do vídeo em destaque" class="cartao__imagem">
+            <img src="assets/img/banner-mobile_1.png" alt="Thumbnail do vídeo em destaque" class="cartao__imagem cartao__imagem--mobile">
+            <img src="assets/img/banner_1.png" alt="Thumbnail do vídeo em destaque" class="cartao__imagem cartao__imagem--web">
             <div class="cartao__conteudo">
                 <p class="cartao__destaque"> Vídeo em destaque </p>
                 <h3 class="cartao__titulo"> HZC - Life is... / 2021 </h3>
@@ -54,6 +55,47 @@
                 <p class="cartao__contagem cartao__contagem--visualizacao">53 visualizalções</p>
                 <button class="cartao__botao cartao__botao--play cartao__botao--grande">Assitir agora</button>
             </div>
+        </article>
+        <article class="cartao listas">
+            <h4 class="lista__titulo">Vídeos recentes</h4>
+            <a href="#" class="lista__ver-mais">Ver todos</a>
+            <ul class="lista lista--recentes">
+                <li class="lista__topico">
+                    <a href="#" class="lista__link">
+                        <img class="lista__imagem" src="assets/img/miniatura_1.png" alt="Thumbnail HZC - Love Machine">
+                        <h5 class="lista__descricao">HZC - Love Machine</h5>
+                        <p class="lista__nome">Bruno Lopes</p>
+                    </a>
+                </li>
+                <li class="lista__topico">
+                    <a href="#" class="lista__link">
+                        <img class="lista__imagem" src="assets/img/miniatura_2.png" alt="Thumbnail HZC - Vol. 3">
+                        <h5 class="lista__descricao">HZC - Vol. 3</h5>
+                        <p class="lista__nome">Luíza Sampaio</p>
+                    </a>
+                </li>
+                <li class="lista__topico">
+                    <a href="#" class="lista__link">
+                        <img class="lista__imagem" src="assets/img/miniatura_3.png" alt="Thumbnail HZC - Pescaria na Urca">
+                        <h5 class="lista__descricao">HZC - Pescaria na Urca</h5>
+                        <p class="lista__nome">Júlia Fonseca</p>
+                    </a>
+                </li>
+                <li class="lista__topico">
+                    <a href="#" class="lista__link">
+                        <img class="lista__imagem" src="assets/img/miniatura_4.png" alt="Thumbnail Vidalocagi - Guerreiros do Asfalto">
+                        <h5 class="lista__descricao">Vidalocagi - Guerreiros do Asfalto</h5>
+                        <p class="lista__nome">Raphael Gibson</p>
+                    </a>
+                </li>
+                <li class="lista__topico">
+                    <a href="#" class="lista__link">
+                        <img class="lista__imagem" src="assets/img/miniatura_5.png" alt="Thumbnail Vidalocagi - Não importa o nível">
+                        <h5 class="lista__descricao">Vidalocagi - Não importa o nível</h5>
+                        <p class="lista__nome">João ZMS</p>
+                    </a>
+                </li>
+            </ul>
         </article>
         <!-- Videos mais vistos -->
         <section class="mais-vistos">
@@ -99,9 +141,65 @@
                 </div>
             </article>
         </section>
+        <article class="cartao listas">
+            <h4 class="lista__titulo">Novas artes</h4>
+            <a href="#" class="lista__ver-mais">Ver todas</a>
+            <ul class="lista">
+                <li class="lista__topico">
+                    <a href="#" class="lista__link">
+                        <img src="assets/img/arte_miniatura_1.png" alt="Arte Sem título 01" class="lista__imagem">
+                        <h5 class="lista__descricao">Sem título 01</h5>
+                        <p class="lista__nome">Antonio Tebyriçá</p>
+                    </a>
+                </li>
+                <li class="lista__topico">
+                    <a class="lista__link" href="#">
+                        <img class="lista__imagem" src="assets/img/arte_miniatura_2.png" alt="Arte Sem título 02">
+                        <h5 class="lista__descricao">Sem título 02</h5>
+                        <p class="lista__nome">Antonio Tebyriçá</p>
+                    </a>
+                </li>
+                <li class="lista__topico">
+                    <a class="lista__link" href="#">
+                        <img class="lista__imagem" src="assets/img/arte_miniatura_3.png" alt="Arte Segurança">
+                        <h5 class="lista__descricao">Segurança</h5>
+                        <p class="lista__nome">Raphael Gibson</p>
+                    </a>
+                </li>
+                <li class="lista__topico">
+                    <a class="lista__link" href="#">
+                        <img class="lista__imagem" src="assets/img/arte_miniatura_4.png" alt="Arte Malunguisse">
+                        <h5 class="lista__descricao">Malunguisse</h5>
+                        <p class="lista__nome">Carolina Canavarro</p>
+                    </a>
+                </li>
+                <li class="lista__topico">
+                    <a class="lista__link" href="#">
+                        <img class="lista__imagem" src="assets/img/arte_miniatura_5.png" alt="Arte Coroa da converse">
+                        <h5 class="lista__descricao">Coroa da converse</h5>
+                        <p class="lista__nome">João ZMS</p>
+                    </a>
+                </li>
+                <li class="lista__topico">
+                    <a class="lista__link" href="#">
+                        <img class="lista__imagem" src="assets/img/arte_miniatura_6.png" alt="Arte Segurança">
+                        <h5 class="lista__descricao">Segurança</h5>
+                        <p class="lista__nome">Raphael Gibson</p>
+                    </a>
+                </li>
+                <li class="lista__topico">
+                    <a class="lista__link" href="#">
+                        <img class="lista__imagem" src="assets/img/arte_miniatura_7.png" alt="Arte Sem título 03">
+                        <h5 class="lista__descricao">Sem título 03</h5>
+                        <p class="lista__nome">Antonio Tebyriçá</p>
+                    </a>
+                </li>
+            </ul>
+        </article>
         <!-- Nova Arte -->
         <article class="cartao cartao--arte">
-            <img src="assets/img/banner-mobile_2.png" alt="Thumbnail do vídeo em destaque" class="cartao__imagem">
+            <img src="assets/img/banner-mobile_2.png" alt="Thumbnail do vídeo em destaque" class="cartao__imagem cartao__imagem--mobile">
+            <img src="assets/img/banner_2.png" alt="Thumbnail do vídeo em destaque" class="cartao__imagem cartao__imagem--web">
             <div class="cartao__conteudo">
                 <p class="cartao__destaque"> Nova arte </p>
                 <h3 class="cartao__titulo"> Only Zikas - Lagoa Dompa Club </h3>

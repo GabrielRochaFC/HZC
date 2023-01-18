@@ -23,3 +23,12 @@
 @import url(cartao/cartao-principal.css);
 @import url(cartao/cartao-arte.css);
 @import url(cabecalho/cabecalho-perfil.css);
+@import url(cartao/listas/listas.css);
+@import url(cartao/listas/lista-descricao.css);
+@import url(cartao/listas/lista-imagem.css);
+@import url(cartao/listas/lista-link.css);
+@import url(cartao/listas/lista-nome.css);
+@import url(cartao/listas/lista-titulo.css);
+@import url(cartao/listas/lista-topico.css);
+@import url(cartao/listas/lista-verMais.css);
+@import url(cartao/listas/lista.css);

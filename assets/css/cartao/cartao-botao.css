@@ -28,3 +28,10 @@
 .cartao__botao--grande::before{
     padding-right: 0.5rem;
 }
+
+@media screen and (min-width:992px) {
+    .cartao__botao--grande{
+        grid-column: auto;
+        padding: 0.5rem;
+    }
+}

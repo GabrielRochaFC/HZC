@@ -1,7 +1,7 @@
 .cabecalho__perfil{
     display: none;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 992px) {
     .cabecalho__perfil{
         align-items: center;
         color: #95999C;

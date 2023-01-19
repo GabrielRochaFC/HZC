@@ -14,7 +14,7 @@
     transition: left 0.25s;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 992px) {
     .menu-lateral{
         grid-column: 1;
         grid-row: 1 / span 2;

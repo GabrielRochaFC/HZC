@@ -2,7 +2,7 @@
     font-size: 1.625rem;
     font-weight: 700;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 992px) {
     .main__titulo{
         grid-column: span 3;
     }

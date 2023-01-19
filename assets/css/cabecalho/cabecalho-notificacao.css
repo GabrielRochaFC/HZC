@@ -2,7 +2,7 @@
     display: none;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 992px) {
     .cabecalho__notificacao--divisao{
         background-color: #95999C;
         display: block;

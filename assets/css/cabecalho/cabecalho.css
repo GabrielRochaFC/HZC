@@ -7,7 +7,7 @@
     padding: 0.5rem 1rem;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 992px) {
     .cabecalho{
         background-color: #1D232A;
         box-sizing: border-box;

@@ -16,6 +16,11 @@
     font-size: 1.25rem;
     font-weight: 400;
 }
+.cartao__botao--pico::before{
+    content: '\e908';
+    font-size: 1.25rem;
+    font-weight: 400;
+}
 .cartao__botao--carrinho::before{
     content: '\e901';
     font-size: 1.25rem;

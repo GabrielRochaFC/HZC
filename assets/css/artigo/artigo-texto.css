@@ -1,0 +1,4 @@
+.artigo__texto{
+    grid-column: span 2;
+    line-height: 2rem;
+}

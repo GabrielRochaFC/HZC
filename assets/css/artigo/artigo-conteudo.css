@@ -1,0 +1,7 @@
+.artigo__conteudo{
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: auto auto;
+    align-items: center;
+}

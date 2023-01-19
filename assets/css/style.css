@@ -32,3 +32,9 @@
 @import url(cartao/listas/lista-topico.css);
 @import url(cartao/listas/lista-verMais.css);
 @import url(cartao/listas/lista.css);
+@import url(artigo/artigo-conteudo.css);
+@import url(artigo/artigo-imagem.css);
+@import url(artigo/artigo-perfil.css);
+@import url(artigo/artigo-texto.css);
+@import url(artigo/artigo-titulo.css);
+@import url(artigo/artigo.css);

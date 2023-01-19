@@ -1,0 +1,15 @@
+.artigo__perfil{
+    align-items: center;
+    align-self: center;
+    display: flex;
+    padding: 0.25rem 0rem;
+}
+.artigo__perfil::before{
+    background-image: url('../../img/profile_2.png');
+    background-size: cover;
+    content: '';
+    display: block;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+    width: 1.5rem;
+}

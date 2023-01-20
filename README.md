@@ -11,7 +11,7 @@ Este é o projeto final do curso "CSS: dispondo elementos com Flexbox e Grid" da
 
 ## Screenshots
 
-- ![screenshot](https://i.imgur.com/svqg6AU.png)
+![screenshot](assets/img/gif.gif)
 
 ## Como utilizar
 

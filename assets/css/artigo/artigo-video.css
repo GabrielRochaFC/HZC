@@ -1,0 +1,5 @@
+.artigo__video{
+    width: 100%;
+    height: calc(16/9 * 100);
+    grid-column: span 2;
+}

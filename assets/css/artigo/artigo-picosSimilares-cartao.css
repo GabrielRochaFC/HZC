@@ -1,0 +1,6 @@
+.picos-similares__cartao{
+    grid-column: span 4;
+    background-color: #2C343A;
+    border-radius: 0.938rem;
+    overflow: hidden;
+}

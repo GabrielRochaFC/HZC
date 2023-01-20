@@ -1,0 +1,14 @@
+@media screen and (min-width: 992px) {
+    .artigo{
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+            "imagem-principal artigo__picos-similares"
+            "artigo__conteudo artigo__picos-similares"
+        ;
+        padding: 2rem 3.625rem;
+        column-gap: 2rem;
+        row-gap: 1rem;
+    }
+}

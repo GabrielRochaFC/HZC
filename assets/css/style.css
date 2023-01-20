@@ -38,3 +38,6 @@
 @import url(artigo/artigo-texto.css);
 @import url(artigo/artigo-titulo.css);
 @import url(artigo/artigo.css);
+@import url(artigo/artigo-picosSimilares.css);
+@import url(artigo/artigo-picosSimilares-cartao.css);
+@import url(artigo/artigo-picosSimilares-titulo.css);

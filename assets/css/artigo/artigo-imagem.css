@@ -2,3 +2,32 @@
     width: 100%;
     grid-column: span 2;
 }
+.artigo__imagem--mobile{
+    display: block;
+}
+.artigo__imagem--web{
+    display: none;
+}
+@media screen and (min-width: 992px) {
+    .artigo__imagem--mobile{
+        display: none;
+    }
+    .artigo__imagem--web{
+        display: flex;
+        grid-column: span 2;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .imagem-principal{
+        grid-area: imagem-principal;
+    }
+    .artigo__imagem--texto-web-1{
+        padding-right: 2rem;
+        width: 53%;
+    }
+    .artigo__imagem--texto-web-2{
+        width: 42%;
+    }
+    
+}

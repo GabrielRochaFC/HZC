@@ -4,3 +4,10 @@
     font-weight: 700;
     line-height: 1.5rem;
 }
+@media screen and (min-width: 992px) {
+    .artigo__titulo{
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}

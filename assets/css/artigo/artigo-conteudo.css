@@ -5,3 +5,11 @@
     grid-template-columns: auto auto;
     align-items: center;
 }
+
+@media screen and (min-width: 992px) {
+    .artigo__conteudo{
+        grid-area: artigo__conteudo;
+        padding: 0rem;
+        grid-template-columns: 1fr auto;
+    }
+}

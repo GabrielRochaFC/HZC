@@ -1,0 +1,13 @@
+.artigo__picos-similares{
+    display: none;
+}
+@media screen and (min-width: 992px) {
+    .artigo__picos-similares {
+        align-self: flex-start;
+        gap: 1rem;
+        display: grid;
+        grid-template-rows: repeat(5, auto);
+        grid-area: artigo__picos-similares;
+        width: 16rem;
+    }
+}

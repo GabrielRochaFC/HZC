@@ -2,3 +2,14 @@
     grid-column: span 2;
     line-height: 2rem;
 }
+.artigo__texto--web{
+    display: none;
+}
+@media screen and (min-width:992px) {
+    .artigo__texto--mobile{
+        display: none;
+    }
+    .artigo__texto--web{
+        display: block;
+    }
+}

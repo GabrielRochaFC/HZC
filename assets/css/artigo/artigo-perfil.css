@@ -13,3 +13,19 @@
     margin-right: 0.5rem;
     width: 1.5rem;
 }
+
+@media screen and (min-width: 992px) {
+    .artigo__perfil{
+        padding: 0rem;
+    }
+    .artigo__perfil::before{
+        background-image: url('../../img/profile_2.png');
+        background-size: cover;
+        background-position: center;
+        content: '';
+        display: block;
+        height: 3rem;
+        margin-right: 0.5rem;
+        width: 3rem;
+    }
+}
